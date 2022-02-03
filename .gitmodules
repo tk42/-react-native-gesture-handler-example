@@ -1,0 +1,3 @@
+[submodule "react-native-gesture-handler"]
+	path = react-native-gesture-handler
+	url = https://github.com/software-mansion/react-native-gesture-handler
