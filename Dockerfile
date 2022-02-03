@@ -4,6 +4,6 @@ WORKDIR /home
 
 COPY ./react-native-gesture-handler .
 RUN yarn
-RUN cd ./example
+
+WORKDIR /home/example
 RUN yarn
-CMD [ "yarn", "start" ]
