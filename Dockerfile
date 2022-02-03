@@ -7,3 +7,5 @@ RUN yarn
 
 WORKDIR /home/example
 RUN yarn
+
+ENV NODE_OPTIONS=--openssl-legacy-provider
